@@ -1,0 +1,4 @@
+- Step1：修改input成为图片输入
+- Step2：修改网络结构（给出idea即可）
+- Step3：合理的组织输出神经元的输出数据
+- Step4：将输出作为Diffusion引导
