@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import numpy as np
-from Input import data
+from SeqInput import data
 
 X = np.array(data[:2000])
 X = X.reshape(-1,1)

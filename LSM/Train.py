@@ -4,8 +4,8 @@
 from brian2 import *
 from hyperopt import fmin, tpe, hp, Trials
 from LSM import nbp, net, monitor
-from Base import base
-from Input import data, spikes
+from base import base
+from SeqInput import data, spikes
 
 # 定义仿真参数 ----------------------------------------------
 class SimPara:
